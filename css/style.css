@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --font-1: 'Poppins', sans-serif;
+}
+
+.nav-area{
+    background: #fff;
+  }
+  .bg-color{
+    float: right;
+      background-color:  #fff;
+  
+  }
+  .nav-logo a {
+    font-weight: 600;
+    font-size: 29px;
+    padding: 0;
+  }
+  .nav-text ul li a {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 7px 0;
+    margin: 0 13px;
+  }
+  .about-area {
+    padding: 50px 0;
+  }
+  .lgx-heading .heading-title {
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: 900;
+    margin: 0;
+    color: #7a1d1b;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .lgx-heading .heading-title:after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .navbar{
+    display: block !important;
+  }
+ .navbar-nav li {
+    text-align: right;
+    padding: 10px 15px;
+    color: #000;
+    font-weight: 600;
+}
+/* .item{
+  border: 1px solid #000;
+  background-color: red;
+  text-align: center;
+} */
+.navbar-light .navbar-nav .nav-link{
+    color: #000 !important;
+}
+.btn:focus{
+  box-shadow: none !important;
+}
+#new_slider .owl-prev{
+  width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    display: block!important;
+    border: 1px solid #fff;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 0;
+}
+#new_slider .owl-next{
+  width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    display: block!important;
+    border: 1px solid #fff;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 0;
+}
+#new_slider .owl-prev span {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+}
+#new_slider .owl-next span{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+}
+#new_slider .owl-prev:hover{
+  color:#000
+}
+#new_slider .owl-next:hover{
+  color:#000
+}
+
+/* ----------------about-area------------------------- */
+.about-area{
+  padding: 50px 0;
+}
+.about-text p{
+  font-size: 16px;
+  font-family: var(--font-1);
+  font-weight: 400;
+  line-height: 26px;
+}
+.about-img img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  padding: 20px 0;
+  margin-right: 0;
+  font-size: 30px !important;
+  text-decoration: none;
+  vertical-align: middle;
+  font-weight: 700;
+}
