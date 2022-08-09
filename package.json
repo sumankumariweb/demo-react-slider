@@ -1,6 +1,6 @@
 {
-  "name": "demo",
-  "homepage": "https://sumankumariweb.github.io/demo",
+  "name": "demo-react-slider",
+  "homepage": "https://sumankumariweb.github.io/demo-react-slider",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
